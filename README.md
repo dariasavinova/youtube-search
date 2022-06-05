@@ -1,4 +1,7 @@
-# sibdevtest
+# sibdevsearch
+
+Данные для успешной авторизации (в формате логин-пароль):
+admin-admin, user-user, owner-owner
 
 ## Project setup
 ```
