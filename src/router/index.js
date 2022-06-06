@@ -4,12 +4,12 @@ import Home from "../components/Home.vue"
 
 const routes = [
 	{
-		path: '/',
+		path: '/youtube-search/',
 		name: 'Authorization',
-		component: Authorization
+		component: Authorization,
 	},
 	{
-    path: "/home",
+    path: "/youtube-search/:home",
     name: "Home",
     component: Home,
   },

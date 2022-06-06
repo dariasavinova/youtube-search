@@ -4,10 +4,10 @@
       <div class="header__links">
         <img class="header__logo" src="../assets/logo.svg" alt="logo" />
 				<nav class="header__nav">
-					<router-link class="header__link" to="/home">Поиск</router-link>
+					<router-link class="header__link" to="/youtube-search/:home">Поиск</router-link>
 				</nav>
       </div>
-			<router-link class="header__logoff" to="/">Выйти</router-link>
+			<router-link class="header__logoff" to="/youtube-search/">Выйти</router-link>
 			
     </div>
   </div>

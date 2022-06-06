@@ -49,7 +49,7 @@ export default {
 				if (username == element.username && password == element.password) {
 					if(!element.token) element.token = this.generate();
 					localStorage.setItem('token', element.token);
-					router.push('home')
+					router.push('/youtube-search/:home')
 				}
 			})
 		},
